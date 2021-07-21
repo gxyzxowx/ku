@@ -1,0 +1,32 @@
+{
+  "name": "ku",
+  "version": "0.0.1",
+  "description": "小而精的前端js常用库",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gxyzxowx/ku.git"
+  },
+  "keywords": [
+    "ku"
+  ],
+  "author": "https://github.com/gxyzxowx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gxyzxowx/ku/issues"
+  },
+  "homepage": "https://github.com/gxyzxowx/ku#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
